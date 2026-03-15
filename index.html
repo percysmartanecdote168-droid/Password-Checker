@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- This is the main HTML file for the Password Strength Checker application. It includes a form for users to input their password and a section to display the results. The page is styled using an external CSS file and includes a JavaScript file for functionality. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Checker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<!-- The body of the HTML document contains the structure of the page, including a header, main content area with a form for password input, and a footer. The form includes an input field for the password and a button to submit the form. The results of the password strength check will be displayed in a div with the class "result". -->
+<body class="body">
+    <header>
+        <h1 class="Heron">Password Strength Checker</h1>
+    </header>
+    <main>
+        <div class="Owl"></div>
+        <form  class="passwordForm">
+        
+            <label for="password">Enter your password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Check Strength</button>
+            <div class="show-pw-container">
+    <input type="checkbox" id="show-pw">
+    <label for="show-pw">Show Password</label>
+</div>
+        </form>
+        </div>
+        <div class="result"></div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Password Strength Checker. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
