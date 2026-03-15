@@ -1,0 +1,79 @@
+
+ 
+.body{
+    background-color: #e28aee9c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Heron {
+    color: #af0b0b;
+    font-size: 2.5em;
+    margin: 0;
+}
+/*Password form*/
+.passwordForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+}
+.passwordForm label {
+    font-size: 1.2em;
+}
+.passwordForm input {
+    padding: 10px;
+    font-size: 1em;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.passwordForm button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.passwordForm button:hover {
+    background-color: #0056b3;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+}
+.Owl {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.result {
+    transition: all 0.3s ease; /* Makes the color change smoothly */
+    min-height: 1.5em;        /* Keeps the layout from jumping when text appears */
+}
+.show-pw-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+#show-pw {
+    width: auto; /* Overrides your 300px input width */
+    cursor: pointer;
+}
